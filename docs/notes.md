@@ -81,4 +81,21 @@ the next component-consuming demo.
     for *host* projects that consume a component through
     `dependencies.json`; `dependencies.md` documents manual staging for
     tool4d but not the ignore rule. A fetched component is an artifact and
-    must not be committed.
+    must not be committed. (Submitted as `miyako/skills` PR #129.)
+
+## Local run under 4D 21.2 LTS
+
+20. **`FORM GET OBJECTS` takes arrays, not collections** -- passing
+    collections raises error 52 ("An array was expected") per form. The
+    form-load check (`Demo_FormLoadCheck`) now declares
+    `ARRAY TEXT` / `ARRAY LONGINT` and reports object counts: Main 14,
+    Login 26, VersionLab 11, ResultPages 20, URLCapture 15.
+21. **A GUI 4D session does not re-read methods edited on disk after it
+    started.** After fixing `Start.4dm` (the hub-reuse branch used a
+    no-op `CALL FORM`/`SET WINDOW RECT` pair instead of
+    `BRING TO FRONT(1)`), the running instance had to be restarted to pick
+    the fix up.
+22. **The Result pages lab needs its own idle timer policy.** The shared
+    `Demo_PollTask` sets `SET TIMER(0)` when a task completes, which would
+    freeze the UTF-8 byte counters; the form method re-arms `SET TIMER(30)`
+    whenever the task slot is empty again.

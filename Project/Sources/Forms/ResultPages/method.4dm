@@ -31,6 +31,10 @@ Case of
 	: (Form event code=On Timer)
 		Demo_UpdatePageCounters(Form)
 		Demo_PollTask(Form; True)
+		// the byte counters keep running while the form is idle
+		If (Form.task=Null)
+			SET TIMER(30)
+		End if
 	: (Form event code=On Unload)
 		If (Not(Form.task=Null))
 			Form.task.dispose()

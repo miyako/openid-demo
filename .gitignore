@@ -24,3 +24,6 @@ Thumbs.db
 /Components/
 # headless self-test runtime artifact
 /openid-demo-selftest.json
+
+# form-load check runtime artifact
+/openid-demo-formload.json

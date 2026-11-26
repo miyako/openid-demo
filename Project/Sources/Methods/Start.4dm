@@ -5,7 +5,6 @@
 
 var $title : Text
 var $window : Integer
-var $left; $top; $right; $bottom : Integer
 var $i : Integer
 
 $title:=Localized string("Main_WindowTitle")
@@ -18,8 +17,7 @@ If (Count parameters=0)
 	For ($i; 1; Size of array($windows))
 		$window:=$windows{$i}
 		If (Window process($window)=1) && (Get window title($window)=$title)
-			GET WINDOW RECT($left; $top; $right; $bottom; $window)
-			CALL FORM($window; Formula(SET WINDOW RECT($left; $top; $right; $bottom; $window)))
+			BRING TO FRONT(1)
 			return
 		End if
 	End for
