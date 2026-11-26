@@ -49,7 +49,7 @@
 |---|---|
 | ![ハブ](docs/screenshots/Main.png) | ![ログインラボ](docs/screenshots/Login.png) |
 | ![バージョンラボ](docs/screenshots/VersionLab.png) | ![結果ページラボ](docs/screenshots/ResultPages.png) |
-| ![URLラボ](docs/screenshots/URLCapture.png) | |
+| ![URLラボ](docs/screenshots/URLCapture.png) | ![ハブ（日本語）](docs/screenshots/Main_ja.png) |
 
 ---
 
@@ -159,4 +159,4 @@ The JSON report lands next to the repository root
 |---|---|
 | ![Hub](docs/screenshots/Main.png) | ![Login lab](docs/screenshots/Login.png) |
 | ![Version lab](docs/screenshots/VersionLab.png) | ![Result pages lab](docs/screenshots/ResultPages.png) |
-| ![URL lab](docs/screenshots/URLCapture.png) | |
+| ![URL lab](docs/screenshots/URLCapture.png) | ![Hub (Japanese)](docs/screenshots/Main_ja.png) |

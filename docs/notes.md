@@ -26,9 +26,13 @@ the next component-consuming demo.
 5. **macOS TCC**: listing `~/Documents` from a shell is denied, while
    direct paths into `~/Documents/GitHub/...` work. Do not retry the
    parent listing.
-6. **`fourdform` previews cannot resolve `:xliff:` references** (warning:
-   "Unresolved XLIFF reference; original text retained"). Previews are for
-   geometry only; expect raw IDs in titles.
+6. **`fourdform` previews resolve `:xliff:` references fine** -- provided
+   the `.lproj` folders are in the database-root `Resources/` (see
+   finding 23; the earlier "renderer cannot resolve XLIFF" conclusion was
+   the same location mistake). Pass `--language en|ja` to pick the
+   variant; empty inputs and object-based dropdowns still display their
+   data-source names (`Form.status`, `Form.lang`) -- a documented renderer
+   limitation, not a localization failure.
 
 ## 4D language traps (caught by `4dlsp` + `4dlang` before any runtime)
 
