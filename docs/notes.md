@@ -99,3 +99,33 @@ the next component-consuming demo.
     `Demo_PollTask` sets `SET TIMER(0)` when a task completes, which would
     freeze the UTF-8 byte counters; the form method re-arms `SET TIMER(30)`
     whenever the task slot is empty again.
+
+## The XLIFF location trap (found by running the demo)
+
+23. **XLIFF `.lproj` folders must live in `<database>/Resources/`, a
+    sibling of `Project/` -- not inside `Project/Resources/`.** With the
+    files under `Project/Resources/`, 4D loads no string tables at all:
+    `Localized string` returns `""`, `:xliff:` references in form JSON and
+    `menus.json` render as raw tokens, `SET WINDOW TITLE` receives `""`
+    (the hub window opened untitled), and -- with no root `Resources/` at
+    all -- `SET DATABASE LOCALIZATION` fails silently, so the localization
+    stays the OS value (`en-gb` here). Moving the same files one level up
+    fixed everything: the default localization resolved `en-gb` -> `en`,
+    and every string resolved. Proven with a minimal `/tmp` probe project
+    and then by the demo's hub window appearing titled "openid demo".
+24. **`--dataless` tool4d can still load XLIFF** once the folder is in the
+    right place, so `Demo_XliffCheck` (localized-string probe writing a
+    JSON report) is a valid headless localization gate. The earlier
+    ""-everywhere results were the wrong location, not a dataless
+    limitation.
+25. **Screen-forensics hazards while another session drives 4D:** a
+    sibling session's capture instance (ldap-demo, 4D 21 R5 under
+    `timeout`) kept raising a modal Syntax Error dialog
+    (`Demo_FixtureCertPath` line 11: `Folder(Get 4D folder(Database
+    folder))` -- "A valid posix path was expected"; `Get 4D folder`
+    returns an HFS path, `Folder` wants POSIX) that overlapped this
+    project's windows and poisoned OCR attribution. OCR + Vision via
+    AppleScriptObjC (`VNRecognizeTextRequest`) worked well for reading
+    4D's dialogs, which expose almost nothing through accessibility; map
+    windows to owning PIDs via System Events `unix id` before believing
+    any on-screen text belongs to your project.

@@ -36,9 +36,11 @@ the component; it does not contain OIDC logic and must never grow any.
   see [docs/notes.md](docs/notes.md).
 - `Project/Sources/Forms/` holds five forms (hub `Main` plus four labs),
   each with `method.4dm` and `ObjectMethods/`.
-- `Project/Resources/en.lproj/` and `ja.lproj/` carry paired XLIFF
-  (`menu`, `messages`, one file per form). IDs are PascalCase with `_`;
-  multi-line strings use `&#13;` (4D line break is CR).
+- `Resources/en.lproj/` and `ja.lproj/` sit at the **database-folder root,
+  a sibling of `Project/`** (not inside `Project/` -- XLIFF placed there is
+  silently ignored and `Localized string` returns ""). They carry paired
+  XLIFF (`menu`, `messages`, one file per form). IDs are PascalCase with
+  `_`; multi-line strings use `&#13;` (4D line break is CR).
 - `Project/Sources/styleSheets.css` holds visual-only rules; structural
   properties stay in the `.4DForm` JSON.
 
@@ -56,6 +58,10 @@ tools/4dlsp/tool4d-lsp-stdio validate --workspace Project/ Sources/Methods/Start
 "/Applications/4D 21 R5 (100189)/tool4d.app/Contents/MacOS/tool4d" \
   Project/openid-demo.4DProject --startup-method Demo_HeadlessSelfTest --dataless
 # report: openid-demo-selftest.json (repo root, gitignored)
+
+# localization acceptance: XLIFF files load and resolve
+tool4d Project/openid-demo.4DProject --startup-method Demo_XliffCheck --dataless
+# report: openid-demo-xliff.json (repo root, gitignored)
 ```
 
 Layout overlap check:

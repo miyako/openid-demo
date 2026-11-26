@@ -27,3 +27,6 @@ Thumbs.db
 
 # form-load check runtime artifact
 /openid-demo-formload.json
+
+# xliff check runtime artifact
+/openid-demo-xliff.json
