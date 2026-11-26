@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Main" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="Main_WindowTitle" resname="Main_WindowTitle">
+        <source>openid demo</source>
+        <target>openid demo</target>
+      </trans-unit>
+      <trans-unit id="Main_Title" resname="Main_Title">
+        <source>OpenID component demo</source>
+        <target>OpenID component demo</target>
+      </trans-unit>
+      <trans-unit id="Main_Subtitle" resname="Main_Subtitle">
+        <source>Four interactive labs around the miyako/openid 4D component: authenticate, inspect the Task lifecycle, customise result pages, capture the authorization URL.</source>
+        <target>Four interactive labs around the miyako/openid 4D component: authenticate, inspect the Task lifecycle, customise result pages, capture the authorization URL.</target>
+      </trans-unit>
+      <trans-unit id="Main_Language" resname="Main_Language">
+        <source>Language</source>
+        <target>Language</target>
+      </trans-unit>
+      <trans-unit id="Main_TileLogin" resname="Main_TileLogin">
+        <source>Login lab</source>
+        <target>Login lab</target>
+      </trans-unit>
+      <trans-unit id="Main_CaptionLogin" resname="Main_CaptionLogin">
+        <source>Authenticate against your own provider and see the verified identity (issuer, subject).</source>
+        <target>Authenticate against your own provider and see the verified identity (issuer, subject).</target>
+      </trans-unit>
+      <trans-unit id="Main_TileVersion" resname="Main_TileVersion">
+        <source>Version lab</source>
+        <target>Version lab</target>
+      </trans-unit>
+      <trans-unit id="Main_CaptionVersion" resname="Main_CaptionVersion">
+        <source>Call version() and watch the Task lifecycle, including dispose() before completion.</source>
+        <target>Call version() and watch the Task lifecycle, including dispose() before completion.</target>
+      </trans-unit>
+      <trans-unit id="Main_TilePages" resname="Main_TilePages">
+        <source>Result pages lab</source>
+        <target>Result pages lab</target>
+      </trans-unit>
+      <trans-unit id="Main_CaptionPages" resname="Main_CaptionPages">
+        <source>Serve your own success/failure pages after identity verification.</source>
+        <target>Serve your own success/failure pages after identity verification.</target>
+      </trans-unit>
+      <trans-unit id="Main_TileURL" resname="Main_TileURL">
+        <source>URL lab</source>
+        <target>URL lab</target>
+      </trans-unit>
+      <trans-unit id="Main_CaptionURL" resname="Main_CaptionURL">
+        <source>Run without a browser and take the authorization URL from memory.</source>
+        <target>Run without a browser and take the authorization URL from memory.</target>
+      </trans-unit>
+      <trans-unit id="Main_Component" resname="Main_Component">
+        <source>Component: OpenID (miyako/openid) — the external CLI is pinned to the component release. No secrets are stored or logged.</source>
+        <target>Component: OpenID (miyako/openid) — the external CLI is pinned to the component release. No secrets are stored or logged.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="ResultPages" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="ResultPages_WindowTitle" resname="ResultPages_WindowTitle">
+        <source>Result pages lab</source>
+        <target>Result pages lab</target>
+      </trans-unit>
+      <trans-unit id="ResultPages_Group" resname="ResultPages_Group">
+        <source>Custom result pages</source>
+        <target>Custom result pages</target>
+      </trans-unit>
+      <trans-unit id="ResultPages_Mode" resname="ResultPages_Mode">
+        <source>Mode</source>
+        <target>Mode</target>
+      </trans-unit>
+      <trans-unit id="ResultPages_Success" resname="ResultPages_Success">
+        <source>Success page</source>
+        <target>Success page</target>
+      </trans-unit>
+      <trans-unit id="ResultPages_Failure" resname="ResultPages_Failure">
+        <source>Failure page</source>
+        <target>Failure page</target>
+      </trans-unit>
+      <trans-unit id="ResultPages_SuccessFile" resname="ResultPages_SuccessFile">
+        <source>Success file</source>
+        <target>Success file</target>
+      </trans-unit>
+      <trans-unit id="ResultPages_FailureFile" resname="ResultPages_FailureFile">
+        <source>Failure file</source>
+        <target>Failure file</target>
+      </trans-unit>
+      <trans-unit id="ResultPages_Choose" resname="ResultPages_Choose">
+        <source>Choose…</source>
+        <target>Choose…</target>
+      </trans-unit>
+      <trans-unit id="ResultPages_Notes" resname="ResultPages_Notes">
+        <source>• Pages are served only after the identity is verified.&amp;#13;• Inline pages are limited to 65536 UTF-8 bytes.&amp;#13;• The page is display only: Task.result() stays authoritative.</source>
+        <target>• Pages are served only after the identity is verified.&amp;#13;• Inline pages are limited to 65536 UTF-8 bytes.&amp;#13;• The page is display only: Task.result() stays authoritative.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

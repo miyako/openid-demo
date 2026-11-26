@@ -1,0 +1,20 @@
+/*
+	styleSheets.css — openid demo (all platforms)
+
+	Visual-only rules live here; structural properties stay in the .4DForm
+	JSON. Hex colours are #RRGGBB (no alpha). The status and hint lines use
+	a transparent fill so they follow light and dark mode without hardcoded
+	colours.
+*/
+
+.statusLine,
+input.statusLine {
+	borderStyle: none;
+	fill: transparent;
+}
+
+.hintLine,
+input.hintLine {
+	borderStyle: none;
+	fill: transparent;
+}

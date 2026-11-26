@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="messages" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="Status_Ready" resname="Status_Ready">
+        <source>Ready</source>
+        <target>Ready</target>
+      </trans-unit>
+      <trans-unit id="Login_Starting" resname="Login_Starting">
+        <source>Waiting for the provider…</source>
+        <target>Waiting for the provider…</target>
+      </trans-unit>
+      <trans-unit id="Login_Cancelled" resname="Login_Cancelled">
+        <source>Cancelled</source>
+        <target>Cancelled</target>
+      </trans-unit>
+      <trans-unit id="Login_Success" resname="Login_Success">
+        <source>Authenticated</source>
+        <target>Authenticated</target>
+      </trans-unit>
+      <trans-unit id="Login_Failed" resname="Login_Failed">
+        <source>Failed: {1}</source>
+        <target>Failed: {1}</target>
+      </trans-unit>
+      <trans-unit id="Login_TokensPresent" resname="Login_TokensPresent">
+        <source>Tokens present (shape only):</source>
+        <target>Tokens present (shape only):</target>
+      </trans-unit>
+      <trans-unit id="Config_Error_Issuer" resname="Config_Error_Issuer">
+        <source>Enter the issuer URL.</source>
+        <target>Enter the issuer URL.</target>
+      </trans-unit>
+      <trans-unit id="Config_Error_ClientID" resname="Config_Error_ClientID">
+        <source>Enter the client ID.</source>
+        <target>Enter the client ID.</target>
+      </trans-unit>
+      <trans-unit id="Config_Error_Scopes" resname="Config_Error_Scopes">
+        <source>Scopes must include "openid".</source>
+        <target>Scopes must include "openid".</target>
+      </trans-unit>
+      <trans-unit id="Config_Error_OfflineAccess" resname="Config_Error_OfflineAccess">
+        <source>offline_access is not supported.</source>
+        <target>offline_access is not supported.</target>
+      </trans-unit>
+      <trans-unit id="Config_Error_Timeout" resname="Config_Error_Timeout">
+        <source>Timeout must be between 1 and 900 seconds.</source>
+        <target>Timeout must be between 1 and 900 seconds.</target>
+      </trans-unit>
+      <trans-unit id="Config_Error_PageSize" resname="Config_Error_PageSize">
+        <source>Inline page exceeds 65536 UTF-8 bytes.</source>
+        <target>Inline page exceeds 65536 UTF-8 bytes.</target>
+      </trans-unit>
+      <trans-unit id="VersionLab_Running" resname="VersionLab_Running">
+        <source>Calling version()…</source>
+        <target>Calling version()…</target>
+      </trans-unit>
+      <trans-unit id="VersionLab_Done" resname="VersionLab_Done">
+        <source>version() completed in {1} ms</source>
+        <target>version() completed in {1} ms</target>
+      </trans-unit>
+      <trans-unit id="VersionLab_Discarded" resname="VersionLab_Discarded">
+        <source>Result discarded (disposed)</source>
+        <target>Result discarded (disposed)</target>
+      </trans-unit>
+      <trans-unit id="VersionLab_LogRunning" resname="VersionLab_LogRunning">
+        <source>task is running</source>
+        <target>task is running</target>
+      </trans-unit>
+      <trans-unit id="VersionLab_LogDone" resname="VersionLab_LogDone">
+        <source>version() → {1} ({2} ms)</source>
+        <target>version() → {1} ({2} ms)</target>
+      </trans-unit>
+      <trans-unit id="VersionLab_LogError" resname="VersionLab_LogError">
+        <source>version() failed: {1}</source>
+        <target>version() failed: {1}</target>
+      </trans-unit>
+      <trans-unit id="VersionLab_LogDispose" resname="VersionLab_LogDispose">
+        <source>dispose() called before completion</source>
+        <target>dispose() called before completion</target>
+      </trans-unit>
+      <trans-unit id="VersionLab_LogDiscarded" resname="VersionLab_LogDiscarded">
+        <source>result discarded by dispose()</source>
+        <target>result discarded by dispose()</target>
+      </trans-unit>
+      <trans-unit id="URLCapture_StartedNoBrowser" resname="URLCapture_StartedNoBrowser">
+        <source>Waiting — open the URL yourself</source>
+        <target>Waiting — open the URL yourself</target>
+      </trans-unit>
+      <trans-unit id="URLCapture_LogStarted" resname="URLCapture_LogStarted">
+        <source>authentication started (no browser)</source>
+        <target>authentication started (no browser)</target>
+      </trans-unit>
+      <trans-unit id="URLCapture_LogURL" resname="URLCapture_LogURL">
+        <source>authorization URL available</source>
+        <target>authorization URL available</target>
+      </trans-unit>
+      <trans-unit id="URLCapture_LogTake" resname="URLCapture_LogTake">
+        <source>takeAuthorizationURL() →</source>
+        <target>takeAuthorizationURL() →</target>
+      </trans-unit>
+      <trans-unit id="URLCapture_LogNoTask" resname="URLCapture_LogNoTask">
+        <source>no task</source>
+        <target>no task</target>
+      </trans-unit>
+      <trans-unit id="URLCapture_Disposed" resname="URLCapture_Disposed">
+        <source>Disposed</source>
+        <target>Disposed</target>
+      </trans-unit>
+      <trans-unit id="ResultPages_Bytes" resname="ResultPages_Bytes">
+        <source>{1} bytes</source>
+        <target>{1} bytes</target>
+      </trans-unit>
+      <trans-unit id="ResultPages_ChooseFile" resname="ResultPages_ChooseFile">
+        <source>Choose an HTML file</source>
+        <target>Choose an HTML file</target>
+      </trans-unit>
+      <trans-unit id="ResultPages_ModeNone" resname="ResultPages_ModeNone">
+        <source>Default pages</source>
+        <target>Default pages</target>
+      </trans-unit>
+      <trans-unit id="ResultPages_ModeInline" resname="ResultPages_ModeInline">
+        <source>Inline HTML</source>
+        <target>Inline HTML</target>
+      </trans-unit>
+      <trans-unit id="ResultPages_ModeFile" resname="ResultPages_ModeFile">
+        <source>HTML files</source>
+        <target>HTML files</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

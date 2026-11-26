@@ -1,0 +1,193 @@
+{
+  "$4d": {
+    "version": "1",
+    "kind": "form"
+  },
+  "windowSizingX": "fixed",
+  "windowSizingY": "fixed",
+  "windowMinWidth": 640,
+  "windowMinHeight": 546,
+  "windowMaxWidth": 32767,
+  "windowMaxHeight": 32767,
+  "rightMargin": 20,
+  "bottomMargin": 20,
+  "events": [
+    "onLoad",
+    "onUnload",
+    "onTimer"
+  ],
+  "windowTitle": ":xliff:URLCapture_WindowTitle",
+  "destination": "detailScreen",
+  "method": "method.4dm",
+  "pages": [
+    {
+      "objects": {}
+    },
+    {
+      "objects": {
+        "lblExplain": {
+          "type": "text",
+          "text": ":xliff:URLCapture_Explain",
+          "top": 16,
+          "left": 20,
+          "width": 600,
+          "height": 30,
+          "fontTheme": "additional"
+        },
+        "btnLogin": {
+          "type": "button",
+          "text": ":xliff:URLCapture_Start",
+          "top": 56,
+          "left": 20,
+          "width": 200,
+          "height": 28,
+          "defaultButton": true,
+          "events": [
+            "onClick"
+          ],
+          "method": "ObjectMethods/btnLogin.4dm"
+        },
+        "btnCancel": {
+          "type": "button",
+          "text": ":xliff:Login_Cancel",
+          "top": 56,
+          "left": 230,
+          "width": 140,
+          "height": 28,
+          "events": [
+            "onClick"
+          ],
+          "method": "ObjectMethods/btnCancel.4dm"
+        },
+        "spinBusy": {
+          "type": "spinner",
+          "dataSource": "Form.busy",
+          "top": 58,
+          "left": 380,
+          "width": 24,
+          "height": 24
+        },
+        "statusLine": {
+          "type": "input",
+          "dataSource": "Form.status",
+          "dataSourceTypeHint": "text",
+          "top": 96,
+          "left": 20,
+          "width": 600,
+          "height": 17,
+          "enterable": false,
+          "focusable": false,
+          "class": "statusLine"
+        },
+        "grpURL": {
+          "type": "groupBox",
+          "text": ":xliff:URLCapture_Group",
+          "top": 124,
+          "left": 20,
+          "width": 600,
+          "height": 140
+        },
+        "lblURL": {
+          "type": "text",
+          "text": ":xliff:URLCapture_URL",
+          "top": 149,
+          "left": 30,
+          "width": 120,
+          "height": 17
+        },
+        "inpURL": {
+          "type": "input",
+          "dataSource": "Form.url",
+          "dataSourceTypeHint": "text",
+          "top": 147,
+          "left": 160,
+          "width": 440,
+          "height": 56,
+          "enterable": false,
+          "focusable": false,
+          "multiline": "automatic",
+          "wordwrap": "normal"
+        },
+        "lblURLWarning": {
+          "type": "text",
+          "text": ":xliff:URLCapture_Warning",
+          "top": 211,
+          "left": 30,
+          "width": 580,
+          "height": 15,
+          "fontTheme": "additional"
+        },
+        "btnOpenBrowser": {
+          "type": "button",
+          "text": ":xliff:URLCapture_OpenBrowser",
+          "top": 232,
+          "left": 30,
+          "width": 220,
+          "height": 24,
+          "events": [
+            "onClick"
+          ],
+          "method": "ObjectMethods/btnOpenBrowser.4dm"
+        },
+        "btnTakeAgain": {
+          "type": "button",
+          "text": ":xliff:URLCapture_TakeAgain",
+          "top": 280,
+          "left": 20,
+          "width": 280,
+          "height": 24,
+          "events": [
+            "onClick"
+          ],
+          "method": "ObjectMethods/btnTakeAgain.4dm"
+        },
+        "btnDispose": {
+          "type": "button",
+          "text": ":xliff:URLCapture_Dispose",
+          "top": 280,
+          "left": 310,
+          "width": 140,
+          "height": 24,
+          "events": [
+            "onClick"
+          ],
+          "method": "ObjectMethods/btnDispose.4dm"
+        },
+        "inpTakeAgain": {
+          "type": "input",
+          "dataSource": "Form.takeAgain",
+          "dataSourceTypeHint": "text",
+          "top": 312,
+          "left": 20,
+          "width": 600,
+          "height": 20,
+          "enterable": false,
+          "focusable": false
+        },
+        "inpLog": {
+          "type": "input",
+          "dataSource": "Form.log",
+          "dataSourceTypeHint": "text",
+          "top": 344,
+          "left": 20,
+          "width": 600,
+          "height": 110,
+          "enterable": false,
+          "focusable": false,
+          "multiline": "automatic",
+          "wordwrap": "normal",
+          "verticalScrollBar": true
+        },
+        "lblNotes": {
+          "type": "text",
+          "text": ":xliff:URLCapture_Notes",
+          "top": 466,
+          "left": 20,
+          "width": 600,
+          "height": 60,
+          "fontTheme": "additional"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+	"version": 2100,
+	"dependencies": {
+		"openid": {
+			"github": "miyako/openid",
+			"version": "0.1.3"
+		}
+	}
+}

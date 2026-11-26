@@ -1,0 +1,26 @@
+# 4D data, logs and derived files
+[dD][aA][tT][aA]/
+Logs/
+DerivedData/
+Libraries/
+userPreferences.*/
+
+# Uncomment to ignore the trash
+# Project/Trash
+
+# System files
+.DS_Store
+ehthumbs.db
+Thumbs.db
+
+# Tools provisioned by the 4D skills (see the 4dtools skill)
+/tools/4dcatalog/
+/tools/4dform/
+/tools/4dlsp/
+/tools/4dlang/
+/tools/4dcli/
+
+# Fetched component builds (regenerated from the pinned dependency tag)
+/Components/
+# headless self-test runtime artifact
+/openid-demo-selftest.json

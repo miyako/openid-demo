@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Login" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="Login_WindowTitle" resname="Login_WindowTitle">
+        <source>Login lab</source>
+        <target>ログインラボ</target>
+      </trans-unit>
+      <trans-unit id="Login_GroupProvider" resname="Login_GroupProvider">
+        <source>Provider</source>
+        <target>プロバイダー</target>
+      </trans-unit>
+      <trans-unit id="Login_Issuer" resname="Login_Issuer">
+        <source>Issuer</source>
+        <target>Issuer</target>
+      </trans-unit>
+      <trans-unit id="Login_IssuerPlaceholder" resname="Login_IssuerPlaceholder">
+        <source>https://your-tenant.auth0.com/</source>
+        <target>https://your-tenant.auth0.com/</target>
+      </trans-unit>
+      <trans-unit id="Login_ClientID" resname="Login_ClientID">
+        <source>Client ID</source>
+        <target>Client ID</target>
+      </trans-unit>
+      <trans-unit id="Login_ClientIDPlaceholder" resname="Login_ClientIDPlaceholder">
+        <source>native application client ID</source>
+        <target>ネイティブアプリの Client ID</target>
+      </trans-unit>
+      <trans-unit id="Login_Listen" resname="Login_Listen">
+        <source>Listen address</source>
+        <target>待ち受けアドレス</target>
+      </trans-unit>
+      <trans-unit id="Login_ListenHint" resname="Login_ListenHint">
+        <source>must match the callback URL registered in the provider</source>
+        <target>プロバイダーに登録したコールバック URL と一致させてください</target>
+      </trans-unit>
+      <trans-unit id="Login_Scopes" resname="Login_Scopes">
+        <source>Scopes</source>
+        <target>スコープ</target>
+      </trans-unit>
+      <trans-unit id="Login_Timeout" resname="Login_Timeout">
+        <source>Timeout (s)</source>
+        <target>タイムアウト（秒）</target>
+      </trans-unit>
+      <trans-unit id="Login_IncludeTokens" resname="Login_IncludeTokens">
+        <source>Include tokens in result</source>
+        <target>結果にトークンを含める</target>
+      </trans-unit>
+      <trans-unit id="Login_TokensWarning" resname="Login_TokensWarning">
+        <source>Tokens are shown as shape only (lengths); values are never displayed or logged.</source>
+        <target>トークンは形式（長さ）のみ表示し、値は表示・記録しません。</target>
+      </trans-unit>
+      <trans-unit id="Login_Start" resname="Login_Start">
+        <source>Start login</source>
+        <target>ログイン開始</target>
+      </trans-unit>
+      <trans-unit id="Login_Cancel" resname="Login_Cancel">
+        <source>Cancel</source>
+        <target>キャンセル</target>
+      </trans-unit>
+      <trans-unit id="Login_GroupResult" resname="Login_GroupResult">
+        <source>Result</source>
+        <target>結果</target>
+      </trans-unit>
+      <trans-unit id="Login_Subject" resname="Login_Subject">
+        <source>Subject</source>
+        <target>Subject</target>
+      </trans-unit>
+      <trans-unit id="Login_IdentityKey" resname="Login_IdentityKey">
+        <source>Identity key: (issuer, subject) — not a 4D Server login.</source>
+        <target>識別キー: (issuer, subject) — 4D Server のログインではありません。</target>
+      </trans-unit>
+      <trans-unit id="Login_Notes" resname="Login_Notes">
+        <source>• The component opens a local loopback listener and your browser.&amp;#13;• Configuration errors surface immediately as a done Task with an error code.&amp;#13;• Cancel works at any time; the worker is never killed.</source>
+        <target>• コンポーネントはローカルのループバックリスナーとブラウザを開きます。&amp;#13;• 設定エラーは即座に完了済みタスクのエラーコードとして現れます。&amp;#13;• いつでもキャンセルできます。ワーカーは強制終了しません。</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

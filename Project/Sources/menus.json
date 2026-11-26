@@ -1,0 +1,53 @@
+{
+  "bars": [
+    {
+      "id": 1,
+      "name": "Main",
+      "items": [
+        { "link": 32001 },
+        { "link": 32002 },
+        { "link": 32003 },
+        { "link": 32010 }
+      ]
+    }
+  ],
+  "menus": [
+    {
+      "link": 32001,
+      "title": ":xliff:Demo_MenuFile",
+      "items": [
+        { "title": ":xliff:Demo_MenuItemQuit", "shortcutAccel": true, "shortcutKey": "Q", "action": "quit" }
+      ]
+    },
+    {
+      "link": 32002,
+      "title": ":xliff:Demo_MenuEdit",
+      "items": [
+        { "title": ":xliff:Demo_MenuItemUndo", "shortcutAccel": true, "shortcutKey": "Z", "action": "undo" },
+        { "title": "(-", "isSeparator": true },
+        { "title": ":xliff:Demo_MenuItemCut", "shortcutAccel": true, "shortcutKey": "X", "action": "cut" },
+        { "title": ":xliff:Demo_MenuItemCopy", "shortcutAccel": true, "shortcutKey": "C", "action": "copy" },
+        { "title": ":xliff:Demo_MenuItemPaste", "shortcutAccel": true, "shortcutKey": "V", "action": "paste" },
+        { "title": ":xliff:Demo_MenuItemClear", "action": "clear" },
+        { "title": ":xliff:Demo_MenuItemSelectAll", "shortcutAccel": true, "shortcutKey": "A", "action": "selectAll" }
+      ]
+    },
+    {
+      "link": 32003,
+      "title": ":xliff:Demo_MenuMode",
+      "items": [
+        { "title": ":xliff:Demo_MenuItemDesign", "action": "design" }
+      ]
+    },
+    {
+      "link": 32010,
+      "title": ":xliff:Demo_MenuTitle",
+      "items": [
+        { "title": ":xliff:Demo_MenuLogin", "method": "Menu_OpenLogin" },
+        { "title": ":xliff:Demo_MenuVersion", "method": "Menu_OpenVersionLab" },
+        { "title": ":xliff:Demo_MenuResultPages", "method": "Menu_OpenResultPages" },
+        { "title": ":xliff:Demo_MenuURLCapture", "method": "Menu_OpenURLCapture" }
+      ]
+    }
+  ]
+}

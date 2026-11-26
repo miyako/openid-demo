@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="ResultPages" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="ResultPages_WindowTitle" resname="ResultPages_WindowTitle">
+        <source>Result pages lab</source>
+        <target>結果ページラボ</target>
+      </trans-unit>
+      <trans-unit id="ResultPages_Group" resname="ResultPages_Group">
+        <source>Custom result pages</source>
+        <target>カスタム結果ページ</target>
+      </trans-unit>
+      <trans-unit id="ResultPages_Mode" resname="ResultPages_Mode">
+        <source>Mode</source>
+        <target>モード</target>
+      </trans-unit>
+      <trans-unit id="ResultPages_Success" resname="ResultPages_Success">
+        <source>Success page</source>
+        <target>成功ページ</target>
+      </trans-unit>
+      <trans-unit id="ResultPages_Failure" resname="ResultPages_Failure">
+        <source>Failure page</source>
+        <target>失敗ページ</target>
+      </trans-unit>
+      <trans-unit id="ResultPages_SuccessFile" resname="ResultPages_SuccessFile">
+        <source>Success file</source>
+        <target>成功ファイル</target>
+      </trans-unit>
+      <trans-unit id="ResultPages_FailureFile" resname="ResultPages_FailureFile">
+        <source>Failure file</source>
+        <target>失敗ファイル</target>
+      </trans-unit>
+      <trans-unit id="ResultPages_Choose" resname="ResultPages_Choose">
+        <source>Choose…</source>
+        <target>選択…</target>
+      </trans-unit>
+      <trans-unit id="ResultPages_Notes" resname="ResultPages_Notes">
+        <source>• Pages are served only after the identity is verified.&amp;#13;• Inline pages are limited to 65536 UTF-8 bytes.&amp;#13;• The page is display only: Task.result() stays authoritative.</source>
+        <target>• ページは識別情報の検証後にのみ表示されます。&amp;#13;• インラインページは 65536 UTF-8 バイトまでです。&amp;#13;• ページは表示専用で、Task.result() が常に正式な結果です。</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

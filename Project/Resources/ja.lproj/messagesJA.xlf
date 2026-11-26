@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="messages" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="Status_Ready" resname="Status_Ready">
+        <source>Ready</source>
+        <target>準備完了</target>
+      </trans-unit>
+      <trans-unit id="Login_Starting" resname="Login_Starting">
+        <source>Waiting for the provider…</source>
+        <target>プロバイダーに接続しています…</target>
+      </trans-unit>
+      <trans-unit id="Login_Cancelled" resname="Login_Cancelled">
+        <source>Cancelled</source>
+        <target>キャンセルしました</target>
+      </trans-unit>
+      <trans-unit id="Login_Success" resname="Login_Success">
+        <source>Authenticated</source>
+        <target>認証しました</target>
+      </trans-unit>
+      <trans-unit id="Login_Failed" resname="Login_Failed">
+        <source>Failed: {1}</source>
+        <target>失敗: {1}</target>
+      </trans-unit>
+      <trans-unit id="Login_TokensPresent" resname="Login_TokensPresent">
+        <source>Tokens present (shape only):</source>
+        <target>トークンあり（形式のみ表示）:</target>
+      </trans-unit>
+      <trans-unit id="Config_Error_Issuer" resname="Config_Error_Issuer">
+        <source>Enter the issuer URL.</source>
+        <target>Issuer URL を入力してください。</target>
+      </trans-unit>
+      <trans-unit id="Config_Error_ClientID" resname="Config_Error_ClientID">
+        <source>Enter the client ID.</source>
+        <target>Client ID を入力してください。</target>
+      </trans-unit>
+      <trans-unit id="Config_Error_Scopes" resname="Config_Error_Scopes">
+        <source>Scopes must include "openid".</source>
+        <target>スコープには "openid" を含めてください。</target>
+      </trans-unit>
+      <trans-unit id="Config_Error_OfflineAccess" resname="Config_Error_OfflineAccess">
+        <source>offline_access is not supported.</source>
+        <target>offline_access には対応していません。</target>
+      </trans-unit>
+      <trans-unit id="Config_Error_Timeout" resname="Config_Error_Timeout">
+        <source>Timeout must be between 1 and 900 seconds.</source>
+        <target>タイムアウトは 1〜900 秒で指定してください。</target>
+      </trans-unit>
+      <trans-unit id="Config_Error_PageSize" resname="Config_Error_PageSize">
+        <source>Inline page exceeds 65536 UTF-8 bytes.</source>
+        <target>インラインページが 65536 UTF-8 バイトを超えています。</target>
+      </trans-unit>
+      <trans-unit id="VersionLab_Running" resname="VersionLab_Running">
+        <source>Calling version()…</source>
+        <target>version() を呼び出しています…</target>
+      </trans-unit>
+      <trans-unit id="VersionLab_Done" resname="VersionLab_Done">
+        <source>version() completed in {1} ms</source>
+        <target>version() が完了しました（{1} ミリ秒）</target>
+      </trans-unit>
+      <trans-unit id="VersionLab_Discarded" resname="VersionLab_Discarded">
+        <source>Result discarded (disposed)</source>
+        <target>結果は破棄されました（dispose 済み）</target>
+      </trans-unit>
+      <trans-unit id="VersionLab_LogRunning" resname="VersionLab_LogRunning">
+        <source>task is running</source>
+        <target>タスク実行中</target>
+      </trans-unit>
+      <trans-unit id="VersionLab_LogDone" resname="VersionLab_LogDone">
+        <source>version() → {1} ({2} ms)</source>
+        <target>version() → {1}（{2} ミリ秒）</target>
+      </trans-unit>
+      <trans-unit id="VersionLab_LogError" resname="VersionLab_LogError">
+        <source>version() failed: {1}</source>
+        <target>version() が失敗: {1}</target>
+      </trans-unit>
+      <trans-unit id="VersionLab_LogDispose" resname="VersionLab_LogDispose">
+        <source>dispose() called before completion</source>
+        <target>完了前に dispose() を呼び出しました</target>
+      </trans-unit>
+      <trans-unit id="VersionLab_LogDiscarded" resname="VersionLab_LogDiscarded">
+        <source>result discarded by dispose()</source>
+        <target>dispose() により結果は破棄されました</target>
+      </trans-unit>
+      <trans-unit id="URLCapture_StartedNoBrowser" resname="URLCapture_StartedNoBrowser">
+        <source>Waiting — open the URL yourself</source>
+        <target>待機中 — URL を自分で開いてください</target>
+      </trans-unit>
+      <trans-unit id="URLCapture_LogStarted" resname="URLCapture_LogStarted">
+        <source>authentication started (no browser)</source>
+        <target>認証を開始しました（ブラウザなし）</target>
+      </trans-unit>
+      <trans-unit id="URLCapture_LogURL" resname="URLCapture_LogURL">
+        <source>authorization URL available</source>
+        <target>認可 URL を取得しました</target>
+      </trans-unit>
+      <trans-unit id="URLCapture_LogTake" resname="URLCapture_LogTake">
+        <source>takeAuthorizationURL() →</source>
+        <target>takeAuthorizationURL() →</target>
+      </trans-unit>
+      <trans-unit id="URLCapture_LogNoTask" resname="URLCapture_LogNoTask">
+        <source>no task</source>
+        <target>タスクなし</target>
+      </trans-unit>
+      <trans-unit id="URLCapture_Disposed" resname="URLCapture_Disposed">
+        <source>Disposed</source>
+        <target>破棄しました</target>
+      </trans-unit>
+      <trans-unit id="ResultPages_Bytes" resname="ResultPages_Bytes">
+        <source>{1} bytes</source>
+        <target>{1} バイト</target>
+      </trans-unit>
+      <trans-unit id="ResultPages_ChooseFile" resname="ResultPages_ChooseFile">
+        <source>Choose an HTML file</source>
+        <target>HTML ファイルを選択</target>
+      </trans-unit>
+      <trans-unit id="ResultPages_ModeNone" resname="ResultPages_ModeNone">
+        <source>Default pages</source>
+        <target>デフォルトページ</target>
+      </trans-unit>
+      <trans-unit id="ResultPages_ModeInline" resname="ResultPages_ModeInline">
+        <source>Inline HTML</source>
+        <target>インライン HTML</target>
+      </trans-unit>
+      <trans-unit id="ResultPages_ModeFile" resname="ResultPages_ModeFile">
+        <source>HTML files</source>
+        <target>HTML ファイル</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

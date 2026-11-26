@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="VersionLab" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="VersionLab_WindowTitle" resname="VersionLab_WindowTitle">
+        <source>Version lab</source>
+        <target>バージョンラボ</target>
+      </trans-unit>
+      <trans-unit id="VersionLab_Explain" resname="VersionLab_Explain">
+        <source>version() needs no configuration and returns a Task immediately.</source>
+        <target>version() は設定不要で、即座に Task を返します。</target>
+      </trans-unit>
+      <trans-unit id="VersionLab_Run" resname="VersionLab_Run">
+        <source>Call version()</source>
+        <target>version() を呼び出す</target>
+      </trans-unit>
+      <trans-unit id="VersionLab_RunDispose" resname="VersionLab_RunDispose">
+        <source>Call version() then dispose()</source>
+        <target>version() を呼び出して dispose()</target>
+      </trans-unit>
+      <trans-unit id="VersionLab_Compiled" resname="VersionLab_Compiled">
+        <source>Mode</source>
+        <target>モード</target>
+      </trans-unit>
+      <trans-unit id="VersionLab_Version" resname="VersionLab_Version">
+        <source>Version</source>
+        <target>バージョン</target>
+      </trans-unit>
+      <trans-unit id="VersionLab_Notes" resname="VersionLab_Notes">
+        <source>• Client.compiled reports Is compiled mode.&amp;#13;• After dispose() the result is discarded; the poll shows it.</source>
+        <target>• Client.compiled は Is compiled mode の値を表示します。&amp;#13;• dispose() 後の結果は破棄され、ポーリングがそれを表示します。</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="VersionLab" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="VersionLab_WindowTitle" resname="VersionLab_WindowTitle">
+        <source>Version lab</source>
+        <target>Version lab</target>
+      </trans-unit>
+      <trans-unit id="VersionLab_Explain" resname="VersionLab_Explain">
+        <source>version() needs no configuration and returns a Task immediately.</source>
+        <target>version() needs no configuration and returns a Task immediately.</target>
+      </trans-unit>
+      <trans-unit id="VersionLab_Run" resname="VersionLab_Run">
+        <source>Call version()</source>
+        <target>Call version()</target>
+      </trans-unit>
+      <trans-unit id="VersionLab_RunDispose" resname="VersionLab_RunDispose">
+        <source>Call version() then dispose()</source>
+        <target>Call version() then dispose()</target>
+      </trans-unit>
+      <trans-unit id="VersionLab_Compiled" resname="VersionLab_Compiled">
+        <source>Mode</source>
+        <target>Mode</target>
+      </trans-unit>
+      <trans-unit id="VersionLab_Version" resname="VersionLab_Version">
+        <source>Version</source>
+        <target>Version</target>
+      </trans-unit>
+      <trans-unit id="VersionLab_Notes" resname="VersionLab_Notes">
+        <source>• Client.compiled reports Is compiled mode.&amp;#13;• After dispose() the result is discarded; the poll shows it.</source>
+        <target>• Client.compiled reports Is compiled mode.&amp;#13;• After dispose() the result is discarded; the poll shows it.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

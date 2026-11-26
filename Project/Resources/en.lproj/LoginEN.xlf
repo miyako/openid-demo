@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Login" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="Login_WindowTitle" resname="Login_WindowTitle">
+        <source>Login lab</source>
+        <target>Login lab</target>
+      </trans-unit>
+      <trans-unit id="Login_GroupProvider" resname="Login_GroupProvider">
+        <source>Provider</source>
+        <target>Provider</target>
+      </trans-unit>
+      <trans-unit id="Login_Issuer" resname="Login_Issuer">
+        <source>Issuer</source>
+        <target>Issuer</target>
+      </trans-unit>
+      <trans-unit id="Login_IssuerPlaceholder" resname="Login_IssuerPlaceholder">
+        <source>https://your-tenant.auth0.com/</source>
+        <target>https://your-tenant.auth0.com/</target>
+      </trans-unit>
+      <trans-unit id="Login_ClientID" resname="Login_ClientID">
+        <source>Client ID</source>
+        <target>Client ID</target>
+      </trans-unit>
+      <trans-unit id="Login_ClientIDPlaceholder" resname="Login_ClientIDPlaceholder">
+        <source>native application client ID</source>
+        <target>native application client ID</target>
+      </trans-unit>
+      <trans-unit id="Login_Listen" resname="Login_Listen">
+        <source>Listen address</source>
+        <target>Listen address</target>
+      </trans-unit>
+      <trans-unit id="Login_ListenHint" resname="Login_ListenHint">
+        <source>must match the callback URL registered in the provider</source>
+        <target>must match the callback URL registered in the provider</target>
+      </trans-unit>
+      <trans-unit id="Login_Scopes" resname="Login_Scopes">
+        <source>Scopes</source>
+        <target>Scopes</target>
+      </trans-unit>
+      <trans-unit id="Login_Timeout" resname="Login_Timeout">
+        <source>Timeout (s)</source>
+        <target>Timeout (s)</target>
+      </trans-unit>
+      <trans-unit id="Login_IncludeTokens" resname="Login_IncludeTokens">
+        <source>Include tokens in result</source>
+        <target>Include tokens in result</target>
+      </trans-unit>
+      <trans-unit id="Login_TokensWarning" resname="Login_TokensWarning">
+        <source>Tokens are shown as shape only (lengths); values are never displayed or logged.</source>
+        <target>Tokens are shown as shape only (lengths); values are never displayed or logged.</target>
+      </trans-unit>
+      <trans-unit id="Login_Start" resname="Login_Start">
+        <source>Start login</source>
+        <target>Start login</target>
+      </trans-unit>
+      <trans-unit id="Login_Cancel" resname="Login_Cancel">
+        <source>Cancel</source>
+        <target>Cancel</target>
+      </trans-unit>
+      <trans-unit id="Login_GroupResult" resname="Login_GroupResult">
+        <source>Result</source>
+        <target>Result</target>
+      </trans-unit>
+      <trans-unit id="Login_Subject" resname="Login_Subject">
+        <source>Subject</source>
+        <target>Subject</target>
+      </trans-unit>
+      <trans-unit id="Login_IdentityKey" resname="Login_IdentityKey">
+        <source>Identity key: (issuer, subject) — not a 4D Server login.</source>
+        <target>Identity key: (issuer, subject) — not a 4D Server login.</target>
+      </trans-unit>
+      <trans-unit id="Login_Notes" resname="Login_Notes">
+        <source>• The component opens a local loopback listener and your browser.&amp;#13;• Configuration errors surface immediately as a done Task with an error code.&amp;#13;• Cancel works at any time; the worker is never killed.</source>
+        <target>• The component opens a local loopback listener and your browser.&amp;#13;• Configuration errors surface immediately as a done Task with an error code.&amp;#13;• Cancel works at any time; the worker is never killed.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

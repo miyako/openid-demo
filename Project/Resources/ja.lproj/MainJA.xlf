@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Main" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="Main_WindowTitle" resname="Main_WindowTitle">
+        <source>openid demo</source>
+        <target>openid デモ</target>
+      </trans-unit>
+      <trans-unit id="Main_Title" resname="Main_Title">
+        <source>OpenID component demo</source>
+        <target>OpenID コンポーネントデモ</target>
+      </trans-unit>
+      <trans-unit id="Main_Subtitle" resname="Main_Subtitle">
+        <source>Four interactive labs around the miyako/openid 4D component: authenticate, inspect the Task lifecycle, customise result pages, capture the authorization URL.</source>
+        <target>miyako/openid 4D コンポーネントを体感する 4 つのインタラクティブ・ラボ: 認証、Task ライフサイクル、結果ページのカスタマイズ、認可 URL の取得。</target>
+      </trans-unit>
+      <trans-unit id="Main_Language" resname="Main_Language">
+        <source>Language</source>
+        <target>言語</target>
+      </trans-unit>
+      <trans-unit id="Main_TileLogin" resname="Main_TileLogin">
+        <source>Login lab</source>
+        <target>ログインラボ</target>
+      </trans-unit>
+      <trans-unit id="Main_CaptionLogin" resname="Main_CaptionLogin">
+        <source>Authenticate against your own provider and see the verified identity (issuer, subject).</source>
+        <target>自分のプロバイダーに対して認証し、検証済みの識別情報（issuer, subject）を確認します。</target>
+      </trans-unit>
+      <trans-unit id="Main_TileVersion" resname="Main_TileVersion">
+        <source>Version lab</source>
+        <target>バージョンラボ</target>
+      </trans-unit>
+      <trans-unit id="Main_CaptionVersion" resname="Main_CaptionVersion">
+        <source>Call version() and watch the Task lifecycle, including dispose() before completion.</source>
+        <target>version() を呼び出し、完了前 dispose() を含む Task のライフサイクルを観察します。</target>
+      </trans-unit>
+      <trans-unit id="Main_TilePages" resname="Main_TilePages">
+        <source>Result pages lab</source>
+        <target>結果ページラボ</target>
+      </trans-unit>
+      <trans-unit id="Main_CaptionPages" resname="Main_CaptionPages">
+        <source>Serve your own success/failure pages after identity verification.</source>
+        <target>識別情報の検証後に、独自の成功/失敗ページを表示します。</target>
+      </trans-unit>
+      <trans-unit id="Main_TileURL" resname="Main_TileURL">
+        <source>URL lab</source>
+        <target>URLラボ</target>
+      </trans-unit>
+      <trans-unit id="Main_CaptionURL" resname="Main_CaptionURL">
+        <source>Run without a browser and take the authorization URL from memory.</source>
+        <target>ブラウザを開かずに実行し、認可 URL をメモリから取得します。</target>
+      </trans-unit>
+      <trans-unit id="Main_Component" resname="Main_Component">
+        <source>Component: OpenID (miyako/openid) — the external CLI is pinned to the component release. No secrets are stored or logged.</source>
+        <target>コンポーネント: OpenID（miyako/openid）— 外部 CLI はコンポーネントのリリースに固定。シークレットの保存や記録は行いません。</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

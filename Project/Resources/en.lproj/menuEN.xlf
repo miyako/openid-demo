@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="menu" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="Demo_MenuTitle" resname="Demo_MenuTitle">
+        <source>Labs</source>
+        <target>Labs</target>
+      </trans-unit>
+      <trans-unit id="Demo_MenuLogin" resname="Demo_MenuLogin">
+        <source>Login lab</source>
+        <target>Login lab</target>
+      </trans-unit>
+      <trans-unit id="Demo_MenuVersion" resname="Demo_MenuVersion">
+        <source>Version lab</source>
+        <target>Version lab</target>
+      </trans-unit>
+      <trans-unit id="Demo_MenuResultPages" resname="Demo_MenuResultPages">
+        <source>Result pages lab</source>
+        <target>Result pages lab</target>
+      </trans-unit>
+      <trans-unit id="Demo_MenuURLCapture" resname="Demo_MenuURLCapture">
+        <source>URL lab</source>
+        <target>URL lab</target>
+      </trans-unit>
+      <trans-unit id="Demo_MenuFile" resname="Demo_MenuFile">
+        <source>File</source>
+        <target>File</target>
+      </trans-unit>
+      <trans-unit id="Demo_MenuEdit" resname="Demo_MenuEdit">
+        <source>Edit</source>
+        <target>Edit</target>
+      </trans-unit>
+      <trans-unit id="Demo_MenuMode" resname="Demo_MenuMode">
+        <source>Mode</source>
+        <target>Mode</target>
+      </trans-unit>
+      <trans-unit id="Demo_MenuItemQuit" resname="Demo_MenuItemQuit">
+        <source>Quit</source>
+        <target>Quit</target>
+      </trans-unit>
+      <trans-unit id="Demo_MenuItemUndo" resname="Demo_MenuItemUndo">
+        <source>Undo</source>
+        <target>Undo</target>
+      </trans-unit>
+      <trans-unit id="Demo_MenuItemCut" resname="Demo_MenuItemCut">
+        <source>Cut</source>
+        <target>Cut</target>
+      </trans-unit>
+      <trans-unit id="Demo_MenuItemCopy" resname="Demo_MenuItemCopy">
+        <source>Copy</source>
+        <target>Copy</target>
+      </trans-unit>
+      <trans-unit id="Demo_MenuItemPaste" resname="Demo_MenuItemPaste">
+        <source>Paste</source>
+        <target>Paste</target>
+      </trans-unit>
+      <trans-unit id="Demo_MenuItemClear" resname="Demo_MenuItemClear">
+        <source>Clear</source>
+        <target>Clear</target>
+      </trans-unit>
+      <trans-unit id="Demo_MenuItemSelectAll" resname="Demo_MenuItemSelectAll">
+        <source>Select All</source>
+        <target>Select All</target>
+      </trans-unit>
+      <trans-unit id="Demo_MenuItemDesign" resname="Demo_MenuItemDesign">
+        <source>Design</source>
+        <target>Design</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

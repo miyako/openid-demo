@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="URLCapture" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="URLCapture_WindowTitle" resname="URLCapture_WindowTitle">
+        <source>URL lab</source>
+        <target>URLラボ</target>
+      </trans-unit>
+      <trans-unit id="URLCapture_Explain" resname="URLCapture_Explain">
+        <source>With open_browser=false the component does not open a browser; the authorization URL stays in memory.</source>
+        <target>open_browser=false の場合、コンポーネントはブラウザを開かず、認可 URL はメモリに保持されます。</target>
+      </trans-unit>
+      <trans-unit id="URLCapture_Start" resname="URLCapture_Start">
+        <source>Start (no browser)</source>
+        <target>開始（ブラウザなし）</target>
+      </trans-unit>
+      <trans-unit id="URLCapture_Group" resname="URLCapture_Group">
+        <source>Authorization URL</source>
+        <target>認可 URL</target>
+      </trans-unit>
+      <trans-unit id="URLCapture_URL" resname="URLCapture_URL">
+        <source>URL</source>
+        <target>URL</target>
+      </trans-unit>
+      <trans-unit id="URLCapture_Warning" resname="URLCapture_Warning">
+        <source>The URL carries state, nonce and PKCE material. Display only — never log or persist it.</source>
+        <target>URL には state・nonce・PKCE マテリアルが含まれます。表示専用 — 記録や保存はしないでください。</target>
+      </trans-unit>
+      <trans-unit id="URLCapture_OpenBrowser" resname="URLCapture_OpenBrowser">
+        <source>Open in browser</source>
+        <target>ブラウザで開く</target>
+      </trans-unit>
+      <trans-unit id="URLCapture_TakeAgain" resname="URLCapture_TakeAgain">
+        <source>takeAuthorizationURL() again</source>
+        <target>takeAuthorizationURL() を再実行</target>
+      </trans-unit>
+      <trans-unit id="URLCapture_Dispose" resname="URLCapture_Dispose">
+        <source>dispose()</source>
+        <target>dispose()</target>
+      </trans-unit>
+      <trans-unit id="URLCapture_Notes" resname="URLCapture_Notes">
+        <source>• takeAuthorizationURL() is read-and-clear: the second call returns empty.&amp;#13;• Completion also clears the URL.&amp;#13;• dispose() ends the attempt.</source>
+        <target>• takeAuthorizationURL() は読み取りとクリアを同時に行います。2 回目は空を返します。&amp;#13;• 完了時も URL はクリアされます。&amp;#13;• dispose() で試行を終了します。</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
